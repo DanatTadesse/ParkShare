@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ParkShare - Find Parking</title>
+</head>
+<body>
+
+    <header>
+        <h1>Find Parking</h1>
+        <p>Choose a convenient parking space for your vehicle.</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="parking.html">Find Parking</a> |
+        <a href="about.html">About Us</a> |
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <hr>
+
+    <main>
+        <section>
+            <h2>Available Parking Spaces</h2>
+            <p>
+                The following are sample parking listings created
+                for the ParkShare student project.
+            </p>
+
+            <table border="1">
+                <caption>Sample Parking Spaces and Prices</caption>
+                <thead>
+                    <tr>
+                        <th>Parking ID</th>
+                        <th>Location</th>
+                        <th>Vehicle Type</th>
+                        <th>Price per Hour</th>
+                        <th>Availability</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>PS001</td>
+                        <td>Bole</td>
+                        <td>Car</td>
+                        <td>50 ETB</td>
+                        <td>Available</td>
+                    </tr>
+                    <tr>
+                        <td>PS002</td>
+                        <td>Kazanchis</td>
+                        <td>Car</td>
+                        <td>40 ETB</td>
+                        <td>Available</td>
+                    </tr>
+                    <tr>
+                        <td>PS003</td>
+                        <td>Piassa</td>
+                        <td>Motorcycle</td>
+                        <td>20 ETB</td>
+                        <td>Available</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Request a Parking Reservation</h2>
+            <p>
+                Complete this form to request a parking space.
+                These are demonstration listings, not confirmed bookings.
+            </p>
+
+            <form action="#" method="get">
+                <p>
+                    <label for="fullname">Full Name:</label><br>
+                    <input type="text" id="fullname"
+                           name="fullname" required>
+                </p>
+
+                <p>
+                    <label for="email">Email Address:</label><br>
+                    <input type="email" id="email"
+                           name="email" required>
+                </p>
+
+                <p>
+                    <label for="phone">Phone Number:</label><br>
+                    <input type="tel" id="phone" name="phone"
+                           required>
+                </p>
+
+                <p>
+                    <label for="location">Choose Location:</label><br>
+                    <select id="location" name="location" required>
+                        <option value="">Select a location</option>
+                        <option value="Bole">Bole</option>
+                        <option value="Kazanchis">Kazanchis</option>
+                        <option value="Piassa">Piassa</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="date">Reservation Date:</label><br>
+                    <input type="date" id="date"
+                           name="date" required>
+                </p>
+
+                <p>
+                    <label for="vehicle">Vehicle Type:</label><br>
+                    <select id="vehicle" name="vehicle" required>
+                        <option value="">Select vehicle type</option>
+                        <option value="Car">Car</option>
+                        <option value="Motorcycle">Motorcycle</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="message">Additional Information:</label><br>
+                    <textarea id="message" name="message"
+                              rows="4" cols="30"></textarea>
+                </p>
+
+                <button type="submit">Submit Reservation Request</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Important Information</h2>
+            <ul>
+                <li>Check the location before requesting a reservation.</li>
+                <li>Prices shown are sample project prices.</li>
+                <li>A submitted form is not a confirmed reservation.</li>
+            </ul>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>ParkShare - Smart Parking Solutions</p>
+        <p><a href="mailto:info@parkshare.example">Email ParkShare</a></p>
+        <p><a href="index.html">Return to Home</a></p>
+        <p>Copyright &copy; 2026 ParkShare.</p>
+    </footer>
+
+</body>
+</html>
